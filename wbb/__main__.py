@@ -117,8 +117,8 @@ home_keyboard_pm = InlineKeyboardMarkup(
                 text="Commands ❓", callback_data="bot_commands"
             ),
             InlineKeyboardButton(
-                text="Repo 🛠",
-                url="https://github.com/thehamkercat/WilliamButcherBot",
+                text="Owner 🛠",
+                url="https://t.me/its_iasbabu",
             ),
         ],
         [
@@ -127,7 +127,7 @@ home_keyboard_pm = InlineKeyboardMarkup(
                 callback_data="stats_callback",
             ),
             InlineKeyboardButton(
-                text="Support 👨", url="http://t.me/WBBSupport"
+                text="Support 👨", url="http://t.me/upsc_cse_aspirants_group"
             ),
         ],
         [
@@ -153,8 +153,8 @@ keyboard = InlineKeyboardMarkup(
                 url=f"t.me/{BOT_USERNAME}?start=help",
             ),
             InlineKeyboardButton(
-                text="Repo 🛠",
-                url="https://github.com/thehamkercat/WilliamButcherBot",
+                text="Owner 🛠",
+                url="https://t.me/its_iasbabu",
             ),
         ],
         [
@@ -162,7 +162,7 @@ keyboard = InlineKeyboardMarkup(
                 text="System Stats 💻",
                 callback_data="stats_callback",
             ),
-            InlineKeyboardButton(text="Support 👨", url="t.me/WBBSupport"),
+            InlineKeyboardButton(text="Support 👨", url="http://t.me/upsc_cse_aspirants_group"),
         ],
     ]
 )
